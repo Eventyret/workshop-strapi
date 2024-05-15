@@ -1,0 +1,22 @@
+{
+  "name": "workshop-strapi-ai",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "@types/node": "^20.12.12",
+    "dotenv": "^16.4.5",
+    "openai": "^4.47.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.10.2"
+  }
+}
